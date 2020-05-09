@@ -7,7 +7,16 @@
 
     <fragment
         android:id="@+id/fragment1"
-        android:name="com.chathuranga.shan.navigationcomponent1.example1.fragments.Fragment1"
-        android:label="fragment_1"
-        tools:layout="@layout/fragment_1" />
+        android:name="com.chathuranga.shan.navigationcomponent1.example1.fragments.FragmentSummary"
+        android:label="Summary"
+        tools:layout="@layout/fragment_summary">
+        <action
+            android:id="@+id/to_description"
+            app:destination="@id/fragmentDescription" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDescription"
+        android:name="com.chathuranga.shan.navigationcomponent1.example1.fragments.FragmentDescription"
+        android:label="Description"
+        tools:layout="@layout/fragment_description" />
 </navigation>

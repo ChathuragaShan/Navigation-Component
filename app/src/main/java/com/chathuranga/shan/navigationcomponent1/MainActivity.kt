@@ -3,8 +3,7 @@ package com.chathuranga.shan.navigationcomponent1
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.navigation.NavController
-import com.chathuranga.shan.navigationcomponent1.example1.Example2Activity
+import com.chathuranga.shan.navigationcomponent1.example1.Example1Activity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -20,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         example1Button.setOnClickListener {
 
-             val intent = Intent(this,Example2Activity::class.java)
+             val intent = Intent(this,Example1Activity::class.java)
             startActivity(intent)
 
         }
