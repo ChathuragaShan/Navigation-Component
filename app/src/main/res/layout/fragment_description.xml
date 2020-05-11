@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".example1.fragments.FragmentDescription" >
+    tools:context=".example1.fragments.FragmentDescription"
+    android:background="@android:color/white">
 
     <ImageView
         android:id="@+id/imageView"
