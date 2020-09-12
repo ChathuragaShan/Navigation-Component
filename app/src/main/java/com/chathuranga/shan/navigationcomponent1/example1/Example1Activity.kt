@@ -9,7 +9,7 @@ import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import com.chathuranga.shan.navigationcomponent1.R
 import io.reactivex.disposables.CompositeDisposable
-import kotlinx.android.synthetic.main.activity_example2.*
+import kotlinx.android.synthetic.main.activity_example1.*
 
 class Example1Activity : AppCompatActivity() {
 
@@ -24,7 +24,7 @@ class Example1Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_example2)
+        setContentView(R.layout.activity_example1)
 
         initialization()
         updateToolBarIcon()
