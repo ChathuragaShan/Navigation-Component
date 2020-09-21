@@ -30,9 +30,9 @@ class ListFragment : Fragment() {
     }
 
     private fun onDetailViewClickListener(){
-        detailViewButton.setOnClickListener {
+        listCardView.setOnClickListener {
             val example2Activity = activity as Example2Activity
-            example2Activity.animateToolBar()
+            example2Activity.fullScreenTransition()
             navigationController.navigate(R.id.to_detail_view)
         }
     }

@@ -9,8 +9,8 @@
     <fragment
         android:id="@+id/listFragment"
         android:name="com.chathuranga.shan.navigationcomponent1.example2.ListFragment"
-        android:label="fragment_list"
-        tools:layout="@layout/fragment_list" >
+        android:label="List View"
+        tools:layout="@layout/fragment_list">
         <action
             android:id="@+id/to_detail_view"
             app:destination="@id/detailFragment" />
