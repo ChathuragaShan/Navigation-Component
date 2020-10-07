@@ -22,7 +22,7 @@ class DetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
         initialization(view)
-        onCreateBackArrow()
+        onClickBackArrow()
     }
 
     private fun initialization(view: View) {
@@ -30,7 +30,7 @@ class DetailFragment : Fragment() {
         navigationController = Navigation.findNavController(view)
     }
 
-    private fun onCreateBackArrow() {
+    private fun onClickBackArrow() {
 
         backButton.setOnClickListener {
             val example2Activity = activity as Example2Activity

@@ -104,7 +104,7 @@ class Example1Activity : AppCompatActivity() {
                 navigationController.navigateUp()
             }
             else ->{
-                navigationController.navigateUp()
+                finish()
             }
         }
 

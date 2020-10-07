@@ -45,7 +45,7 @@
             motion:layout_constraintBottom_toBottomOf="parent"
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
-            motion:layout_constraintTop_toBottomOf="@id/appBarDuplicateView" />
+            motion:layout_constraintTop_toBottomOf="@id/appBarView" />
         <Constraint
             android:id="@id/mainImageView"
             android:layout_width="match_parent"
